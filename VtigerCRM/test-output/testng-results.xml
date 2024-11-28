@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-28T12:53:33 IST" name="Default suite" finished-at="2024-11-28T12:54:03 IST" duration-ms="30672">
+  <suite started-at="2024-11-28T21:45:39 IST" name="Default suite" finished-at="2024-11-28T21:45:54 IST" duration-ms="15195">
     <groups>
     </groups>
-    <test started-at="2024-11-28T12:53:33 IST" name="Default test" finished-at="2024-11-28T12:54:03 IST" duration-ms="30672">
-      <class name="com.crm.Organizations.TC_VT_002_TEST_TEST">
-        <test-method is-config="true" signature="reportconfig()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:53:32 IST" name="reportconfig" finished-at="2024-11-28T12:53:33 IST" duration-ms="345" status="PASS">
+    <test started-at="2024-11-28T21:45:39 IST" name="Default test" finished-at="2024-11-28T21:45:54 IST" duration-ms="15195">
+      <class name="com.crm.Organizations.TC_VT_003_TEST_TEST">
+        <test-method is-config="true" signature="reportconfig()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:39 IST" name="reportconfig" finished-at="2024-11-28T21:45:39 IST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportconfig -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:53:33 IST" name="launchBrowser" finished-at="2024-11-28T12:53:38 IST" duration-ms="4990" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:39 IST" name="launchBrowser" finished-at="2024-11-28T21:45:42 IST" duration-ms="3028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,27 +22,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:53:38 IST" name="login" finished-at="2024-11-28T12:53:42 IST" duration-ms="4642" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:42 IST" name="login" finished-at="2024-11-28T21:45:45 IST" duration-ms="2230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createOrganization()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:53:42 IST" name="createOrganization" finished-at="2024-11-28T12:54:00 IST" duration-ms="17910" status="PASS">
+        <test-method signature="createContacts()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:45 IST" name="createContacts" finished-at="2024-11-28T21:45:53 IST" duration-ms="8605" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganization -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:54:00 IST" name="logout" finished-at="2024-11-28T12:54:03 IST" duration-ms="2754" status="PASS">
+        </test-method> <!-- createContacts -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:53 IST" name="logout" finished-at="2024-11-28T21:45:54 IST" duration-ms="1115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:54:03 IST" name="closeBrowser" finished-at="2024-11-28T12:54:03 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:54 IST" name="closeBrowser" finished-at="2024-11-28T21:45:54 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="reportBackUp()[pri:0, instance:com.crm.Organizations.TC_VT_002_TEST_TEST@9d5509a]" started-at="2024-11-28T12:54:04 IST" name="reportBackUp" finished-at="2024-11-28T12:54:04 IST" duration-ms="836" status="PASS">
+        <test-method is-config="true" signature="reportBackUp()[pri:0, instance:com.crm.Organizations.TC_VT_003_TEST_TEST@9d5509a]" started-at="2024-11-28T21:45:54 IST" name="reportBackUp" finished-at="2024-11-28T21:45:55 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportBackUp -->
-      </class> <!-- com.crm.Organizations.TC_VT_002_TEST_TEST -->
+      </class> <!-- com.crm.Organizations.TC_VT_003_TEST_TEST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

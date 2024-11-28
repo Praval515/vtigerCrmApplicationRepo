@@ -29,6 +29,12 @@ public class ContactsPage {
 	private WebElement sendmailLink;
 	@FindBy(xpath = "(//input[@value='Send SMS'])[1]")
 	private WebElement sendSmsLink;
+	@FindBy(xpath = "//img[@title='Create Contact...']")
+	private WebElement CreateContactLink;
+	@FindBy(xpath = "//span[@class='dvHeaderText']")
+	private WebElement HeaderText;
+	
+	
 	public ContactsPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -64,6 +70,12 @@ public class ContactsPage {
 	}
 	public WebElement getSendSmsLink() {
 		return sendSmsLink;
+	}
+	public WebElement getCreateContactLink() {
+		return CreateContactLink;
+	}
+	public WebElement getHeaderText() {
+		return HeaderText;
 	}
 
 }

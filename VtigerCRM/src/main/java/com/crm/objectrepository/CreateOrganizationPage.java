@@ -20,6 +20,8 @@ public class CreateOrganizationPage {
 	
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement CreatingNewOrganization;
+	
+	
 	public CreateOrganizationPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
